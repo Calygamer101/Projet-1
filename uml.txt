@@ -1,0 +1,8 @@
+class Ballon
+---------------
+String type
+String couleur
+Int nombre
+---------------
+void QuelleType(Sting)
+void NombreBall(Int)
