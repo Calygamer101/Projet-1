@@ -2,7 +2,8 @@ class Ballon
 ---------------
 String type
 String couleur
-Int nombre
+int nombre
 ---------------
-void QuelleType(Sting)
-void NombreBall(Int)
+void quelleType(String)
+void quelleCouleur(String)
+void combienBall(int)
