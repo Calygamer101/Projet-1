@@ -1,8 +1,13 @@
 public  class Ballon {
     
-    String type = "normal";
-    String couleur = "invisible";
-    int nombre = 0;
+    String type;
+    String couleur;
+    int nombre;
+
+    Ballon(){
+        this("normal" "invisible" 0);
+
+    }
 
 
     public void quelleType(String type) {
