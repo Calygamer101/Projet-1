@@ -3,11 +3,19 @@ public class Main {
         Ballon b1 = new Ballon();
         Ballon b2 = new Ballon();
 
+        System.out.println("Original");
+        System.out.println("Type:" + b1.type);
+        System.out.println("Couleur:" + b1.couleur);
+        System.out.println("Nombre:" + b1.nombre);
+
+
         b1.quelleType("Ballon de soccer");
         b2.quelleType("Ballon de bascketball ");
 
+
         b1.quelleCouleur("Ballon noir");
         b2.quelleCouleur("Ballon orange");
+
 
         b1.combienBall(12);
         b2.combienBall(1);
