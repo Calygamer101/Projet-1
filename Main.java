@@ -4,9 +4,7 @@ public class Main {
         Ballon b2 = new Ballon();
 
         System.out.println("Original");
-        System.out.println("Type:" + b1.type);
-        System.out.println("Couleur:" + b1.couleur);
-        System.out.println("Nombre:" + b1.nombre);
+        System.out.println(b1);
 
 
         b1.quelleType("Ballon de soccer");
@@ -21,14 +19,12 @@ public class Main {
         b2.combienBall(1);
 
         System.out.println("B1");
-        System.out.println("Type:" + b1.type);
-        System.out.println("Couleur:" + b1.couleur);
-        System.out.println("Nombre:" + b1.nombre);
-
+        System.out.println(b1);
+       
         System.out.println("B2");
-        System.out.println("Type:" + b2.type);
-        System.out.println("Couleur:" +b2.couleur);
-        System.out.println("Nombre:" +b2.nombre);
+        System.out.println(b2);
+
+        System.out.println(b1.equals(b2));
         
     }
 }

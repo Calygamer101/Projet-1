@@ -27,6 +27,29 @@ public  class Ballon {
         this.nombre = nombre;
 
     }
+    
+    @Override
+     public String toString(){
+        String output = "";
+        output += "quelleType" + " " + this.type + "; ";
+        output += "quelleCouleur" + " " + this.couleur + "; ";
+        output += "combienNombre" + " " + this.nombre + "; ";
+        return output;
+     }
 
+     @Override
+     public boolean equals(Object other) {
+        if (this ==  other) {
+            return true;
+        }
+        if (!(other instanceof Ballon)) {
+            return false;
+        }
+        Ballon o = (Ballon)other;
+
+        return (o.type).equals(this.type)
+            && (o.couleur).equals(this.couleur)
+            && o.nombre == this.nombre;
+     }
 }
 
