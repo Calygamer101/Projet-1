@@ -7,16 +7,17 @@ public class Main {
         System.out.println(b1);
 
 
-        b1.quelleType("Ballon de soccer");
-        b2.quelleType("Ballon de bascketball ");
+        b1.setType("Ballon de soccer");
+        b2.setType("Ballon de bascketball ");
+
+        b2.getNombre();
 
 
-        b1.quelleCouleur("Ballon noir");
-        b2.quelleCouleur("Ballon orange");
+        b1.setCouleur("Ballon noir");
+        b2.setCouleur("Ballon orange");
 
-
-        b1.combienBall(12);
-        b2.combienBall(1);
+        b1.setNombre(12);
+        b2.setNombre(1);
 
         System.out.println("B1");
         System.out.println(b1);
